@@ -9,14 +9,14 @@
   <title>服务器主机名及更新包命名规范 | IT运维日记</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="[TOC] 服务器主机名及更新包命名规范1 服务器命名规则举例1：sk-huadong2-at-01 解释：   sk            代理商缩写，深空   huadong2         区域，华东2   at            安卓测试   01            服务器编号 举例2：sk-huadong2-io-01 12345解释：  sk			代理商缩写，深空  huad">
-<meta name="keywords" content="shell,极客,代码,开源,IT网站,linux,iptables,网站,博客,nginx,docker">
+<meta name="keywords" content="工作">
 <meta property="og:type" content="article">
 <meta property="og:title" content="服务器主机名及更新包命名规范">
 <meta property="og:url" content="http://exrock.github.io/2018/02/13/服务器主机名及更新包命名规范/index.html">
 <meta property="og:site_name" content="IT运维日记">
 <meta property="og:description" content="[TOC] 服务器主机名及更新包命名规范1 服务器命名规则举例1：sk-huadong2-at-01 解释：   sk            代理商缩写，深空   huadong2         区域，华东2   at            安卓测试   01            服务器编号 举例2：sk-huadong2-io-01 12345解释：  sk			代理商缩写，深空  huad">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-08-11T06:29:52.431Z">
+<meta property="og:updated_time" content="2018-08-12T08:48:54.701Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="服务器主机名及更新包命名规范">
 <meta name="twitter:description" content="[TOC] 服务器主机名及更新包命名规范1 服务器命名规则举例1：sk-huadong2-at-01 解释：   sk            代理商缩写，深空   huadong2         区域，华东2   at            安卓测试   01            服务器编号 举例2：sk-huadong2-io-01 12345解释：  sk			代理商缩写，深空  huad">
@@ -274,7 +274,6 @@ t        test        测试服
 <p>表示所有游戏服都需要执行的动态更新语句</p>
 <p>更多举例：</p>
 <figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">Client端：</span><br><span class="line">./update							说明：</span><br><span class="line">    ├── android_at<span class="selector-class">.zip</span>				#安卓测试服android客户端更新包</span><br><span class="line">    ├── android_ai<span class="selector-class">.zip</span>				#安卓/苹果混合服android客户端更新包</span><br><span class="line">    ├── ios_io<span class="selector-class">.zip</span>					#苹果正式服ios客户端更新包</span><br><span class="line">    └── ios_ai<span class="selector-class">.zip</span>					#安卓/苹果混合服ios客户端更新包</span><br><span class="line">    </span><br><span class="line">Server端：</span><br><span class="line">./update							说明：</span><br><span class="line">    ├── gccserver_at<span class="selector-class">.zip</span>			#安卓测试服的全局配置更新包</span><br><span class="line">    ├── gccserver_io<span class="selector-class">.zip</span>			#苹果正式服的全局配置更新包</span><br><span class="line">    ├── gccserver_ai<span class="selector-class">.zip</span>			#安卓/苹果混合服的全局配置更新包</span><br><span class="line">    ├── payserver<span class="selector-class">.zip</span>				#安卓测试服、苹果正式服、安卓/苹果混合服的支付更新包</span><br><span class="line">    ├── sk_base_at<span class="selector-class">.sql</span>				#安卓测试服基础信息配置库</span><br><span class="line">    ├── sk_base<span class="selector-class">.sql</span>					#安卓测试服、苹果正式服、安卓/苹果混合服通用基础信息更新语句</span><br><span class="line">    └── skgame_io<span class="selector-class">.zip</span>				#苹果正式服的服务端热更包(sk_****下的bin目录)</span><br></pre></td></tr></table></figure>
-
       
 
       
@@ -282,7 +281,29 @@ t        test        测试服
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">工作</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/其它//" class="article-tag-list-link color3">其它</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
 
       
 
@@ -489,6 +510,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">工作</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
